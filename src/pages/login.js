@@ -1,6 +1,6 @@
+import React from "react";
 import { styled } from "@mui/system";
 import { Button, Container, Grid, Paper, TextField, Typography } from "@mui/material";
-import React from "react";
 import { PhoneAndroidRounded, SendRounded } from "@mui/icons-material";
 import Img from './imgs/bg_building.png';
 
@@ -21,7 +21,7 @@ const styles={
 const Login=()=>{
     return(
         <Container style={styles.containerStyle}>
-            <Paper elevation={4} sx={{height:'290px', width:300, padding:'30px',borderRadius:'10px', margin:'25vh auto', opacity:'90%'}}>
+            <Paper elevation={4} sx={{height:'290px', width:300, padding:'30px',borderRadius:'10px', margin:'25vh auto', opacity:'95%'}}>
                 <Typography variant="h5" align="center" sx={{paddingBottom:'10px'}}>Student Login</Typography>
                 <TextBox fullWidth required label="Enter Username" size="small" sx={{marginBottom: '20px'}}/>
                 <TextBox fullWidth required label="Enter Password" size="small" sx={{marginBottom: '20px'}} type='password'/>
